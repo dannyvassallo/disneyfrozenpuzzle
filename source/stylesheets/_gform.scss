@@ -1,0 +1,62 @@
+.ss-form{
+  text-align: left;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
+  height: 417px;
+  position: relative;
+  max-width: 1023px;
+  .ss-q-title{
+    font-size: 20px;
+    color: #08284f;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  .ss-q-short.form-control, .ss-q-date.form-control{
+    width: 100%;
+  }
+
+}
+
+.required-message{display: none;}
+
+
+.redsubmit{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#navigation-table{
+  margin: 0 auto !important;
+}
+
+#ss-submit{
+  margin: 0 auto;
+  border: none;
+  background-image: url(https://s3.amazonaws.com/myfangate.com/rdfrozen/enterbutton.png);
+  width: 132px;
+  height: 49px;
+  margin: 20px 0 20px 0;
+  background-color: transparent;
+}
+
+.ruletext{
+  color: #08284f;
+  a{
+    color: #08284f;
+  }
+}
+
+.thanks{
+  color: #08284f;
+}
+
+
+
+///////ss form 2///////
+.ss-form2{
+  visibility: hidden;
+  position: absolute;
+  left: -99999999px;
+}

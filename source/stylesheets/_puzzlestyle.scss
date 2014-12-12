@@ -1,0 +1,28 @@
+#puzzlehider{
+  position: relative;
+  opacity: 0;
+  height: 1px;
+  .congrats{
+    padding-top: 20%;
+  }
+  h1{
+    color: #fff
+  }
+}
+
+#puzzlestyle{
+  margin: 0 auto;
+}
+
+.jqPuzzle .jqp-piece:hover {
+ border-style: solid; 
+}
+
+.puzzle, .jqpuzzle{
+  margin: 0 auto !important;
+}
+
+.puzzlewrap{
+position: relative;
+
+}
