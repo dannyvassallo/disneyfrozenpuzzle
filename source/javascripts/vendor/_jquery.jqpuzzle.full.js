@@ -11,8 +11,8 @@ $.fn.jqPuzzle = function(settings, texts) {
 	// default settings
 	var defaults = {
 		
-		rows: 3, 					// number of rows [3 ... 9]
-		cols: 3,		 			// number of columns [3 ... 9]
+		rows: 2, 					// number of rows [3 ... 9]
+		cols: 2,		 			// number of columns [3 ... 9]
 		hole: 9,					// initial hole position [1 ... rows*columns]
 		shuffle: true,				// initially show shuffled pieces [true|false]
 		numbers: true,				// initially show numbers on pieces [true|false]
