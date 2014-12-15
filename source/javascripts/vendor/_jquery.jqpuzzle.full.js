@@ -11,8 +11,8 @@ $.fn.jqPuzzle = function(settings, texts) {
 	// default settings
 	var defaults = {
 		
-		rows: 2, 					// number of rows [3 ... 9]
-		cols: 2,		 			// number of columns [3 ... 9]
+		rows: 3, 					// number of rows [3 ... 9]
+		cols: 3,		 			// number of columns [3 ... 9]
 		hole: 9,					// initial hole position [1 ... rows*columns]
 		shuffle: true,				// initially show shuffled pieces [true|false]
 		numbers: true,				// initially show numbers on pieces [true|false]
@@ -36,6 +36,7 @@ $.fn.jqPuzzle = function(settings, texts) {
 			callback: function(winner){
 				$('.submit2').trigger("click");
 				$('#puzzlehider').html("<div class=\"congrats\"><h1 class=\"shadow2\">Congratulations!</h1><h1 class=\"shadow2\">You've just won 25 additional entries!</h1><br><center><a href=\'#\' onclick=\'location.reload();\'><img style=\"width:300px;\" class=\"shadow2\" src=\'https://s3.amazonaws.com/myfangate.com/rdfrozen/againbutton.png\'></a></center></div>").css({'height':'898px'});
+			  ga('send', 'event',  'Puzzle', 'Solved');
 			},	// callback a user-defined function [function]
 									// the function is passed an object as its argument
 									// which includes the fields 'moves' and 'seconds'
