@@ -35,7 +35,7 @@ $.fn.jqPuzzle = function(settings, texts) {
 			fadeOriginal: true,		// cross-fade original image [true|false]
 			callback: function(winner){
 				$('.submit2').trigger("click");
-				$('#puzzlehider').html("<div class=\"congrats\"><h1 class=\"shadow2\">Congratulations!</h1><h1 class=\"shadow2\">You've just won 25 additional entries!</h1><br><center><a href=\'#\' onclick=\'location.reload();\'><img style=\"width:200px;\" class=\"shadow2\" src=\'https://s3.amazonaws.com/myfangate.com/rdfrozen/againbutton.png\'></a></center></div>").css({'height':'898px'});
+				$('#puzzlehider').html("<div class=\"congrats\"><h1 class=\"shadow2\">Congratulations!</h1><h1 class=\"shadow2\">You've just won 25 additional entries!</h1><br><center><a href=\'#\' onclick=\'location.reload();\'><img style=\"width:300px;\" class=\"shadow2\" src=\'https://s3.amazonaws.com/myfangate.com/rdfrozen/againbutton.png\'></a></center></div>").css({'height':'898px'});
 			},	// callback a user-defined function [function]
 									// the function is passed an object as its argument
 									// which includes the fields 'moves' and 'seconds'

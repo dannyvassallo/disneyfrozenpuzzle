@@ -24,5 +24,19 @@
 
 .puzzlewrap{
 position: relative;
+}
 
+
+#overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background:rgba(0,0,0,0.7);
+  z-index: 7777;
+  img{
+    margin: 30% auto;
+    width: 100%;
+  }
 }

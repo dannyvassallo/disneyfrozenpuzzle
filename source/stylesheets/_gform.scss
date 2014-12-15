@@ -6,7 +6,7 @@
   position: relative;
   max-width: 1023px;
   .ss-q-title{
-    font-size: 20px;
+    font-size: 30px;
     color: #08284f;
     text-transform: uppercase;
     font-weight: bold;
@@ -35,14 +35,16 @@
   margin: 0 auto;
   border: none;
   background-image: url(https://s3.amazonaws.com/myfangate.com/rdfrozen/enterbutton.png);
-  width: 132px;
-  height: 49px;
+  background-size: cover;
+  width: 200px;
+  height: 74px;
   margin: 20px 0 20px 0;
   background-color: transparent;
 }
 
 .ruletext{
   color: #08284f;
+  font-size: 30px;
   a{
     color: #08284f;
   }

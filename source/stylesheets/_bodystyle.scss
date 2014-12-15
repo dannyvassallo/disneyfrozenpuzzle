@@ -17,13 +17,13 @@ body{
 }
 
 #banner-img{
-  max-width: 640px;
+  // max-width: 640px;
   margin: 0 auto;
   position: relative;
 }
 
 .wrapper{
-  max-width: 1032px;
+  // max-width: 1032px;
   position: relative;
   margin: 0 auto;
 }
@@ -41,7 +41,7 @@ body{
   text-align: center;
   img{
     width: 100%;
-    max-width: 730px;
+    // max-width: 730px;
   }
 }
 
@@ -60,8 +60,11 @@ body{
 
 #ruleslink{
   margin: 20px;
+  position: relative;
+  z-index: 999999;
   a{
     font-weight: 100;
+    font-size: 30px;
     text-decoration: none;
     color: black;
   }

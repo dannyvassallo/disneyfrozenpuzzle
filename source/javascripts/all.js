@@ -6,3 +6,4 @@
 //= require _dupeform
 //= require vendor/_jquery.browser
 //= require vendor/_jquery.jqpuzzle.full
+//= require _overlay
