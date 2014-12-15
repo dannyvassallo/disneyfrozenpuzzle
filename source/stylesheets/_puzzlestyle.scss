@@ -41,3 +41,12 @@ position: relative;
     width: 100%;
   }
 }
+
+
+.jqp-wrapper span{
+  font-weight: bold;
+  font-size: 60px;
+  margin-left: 10px;
+  -webkit-filter: drop-shadow( 0px 0px 5px #000 );
+  filter: drop-shadow( 0px 0px 5px #000 ); /* Same syntax as box-shadow */
+}
