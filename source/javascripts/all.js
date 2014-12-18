@@ -1,4 +1,3 @@
-//= require jquery
 //= require _deviceWidth
 //= require _validation
 //= require _analytics
