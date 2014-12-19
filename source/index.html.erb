@@ -1,39 +1,43 @@
 ---
 title: Holidays Unwrapped
 ---
-<div class="wrapper">
-  <img id="banner-img" src="https://s3.amazonaws.com/myfangate.com/rdfrozen/banner.png">
-</div>
 
-<div class="wrapper">
-  <div id="art">
-    <img src="https://s3.amazonaws.com/myfangate.com/rdfrozen/art.png">
+<div class="width-restriction">
+  
+  <div class="wrapper">
+    <img id="banner-img" src="https://s3.amazonaws.com/myfangate.com/rdfrozen/banner.png">
   </div>
-  <div id="puzzlehider">
-    <%= partial "partials/puzzle" %>
+
+  <div class="wrapper">
+    <div id="art">
+      <img src="https://s3.amazonaws.com/myfangate.com/rdfrozen/art.png">
+    </div>
+    <div id="puzzlehider">
+      <%= partial "partials/puzzle" %>
+    </div>
   </div>
-</div>
 
-<div id="enter-wrap">
-  <div id="enter">
-    <img src="https://s3.amazonaws.com/myfangate.com/rdfrozen/enter.png">
+  <div id="enter-wrap">
+    <div id="enter">
+      <img src="https://s3.amazonaws.com/myfangate.com/rdfrozen/enter.png">
+    </div>
   </div>
-</div>
 
-<div class="wrapper">
-  <img class="shadow" src="https://s3.amazonaws.com/myfangate.com/rdfrozen/prizelist.png">
-</div>
-
-<div id="enter-wrap">
-  <div id="entries">
-    <img src="https://s3.amazonaws.com/myfangate.com/rdfrozen/entries.png">
+  <div class="wrapper">
+    <img class="shadow" src="https://s3.amazonaws.com/myfangate.com/rdfrozen/prizelist.png">
   </div>
+
+  <div id="enter-wrap">
+    <div id="entries">
+      <img src="https://s3.amazonaws.com/myfangate.com/rdfrozen/entries.png">
+    </div>
+  </div>
+
+  <div id="ruleslink">
+    <a href="https://s3.amazonaws.com/myfangate.com/rdfrozen/Holidays+Unwrapped+Rules.pdf" target="_blank">OFFICIAL RULES</a>
+  </div>
+
+  <%= partial "partials/gform" %>
+  <%= partial "partials/gform2" %>
+
 </div>
-
-<div id="ruleslink">
-  <a href="https://s3.amazonaws.com/myfangate.com/rdfrozen/Holidays+Unwrapped+Rules.pdf" target="_blank">OFFICIAL RULES</a>
-</div>
-
-<%= partial "partials/gform" %>
-<%= partial "partials/gform2" %>
-
